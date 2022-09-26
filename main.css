@@ -1,0 +1,164 @@
+* {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.main {
+    margin: 0 auto;
+    width: 95em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20em;
+    background-color: rgb(17, 128, 255);
+    color: white;
+}
+
+.headChild1 {
+    display: inherit;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.btn-1 {
+    background-color: whitesmoke;
+    width: 10em;
+    height: 1.5em;
+    text-align: center;
+    color: black;
+}
+
+.searchItems {
+    background: url("./images/header/search.svg") no-repeat right;
+    padding-right: 25px;
+    background-size: 20px;
+    background-color: white;
+}
+
+.nextChild {
+    background-color: white;
+    display: flex;
+    padding: 0 25em;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 8em;
+    border: 1px solid black;
+}
+
+.menuchild {
+    display: inherit;
+    list-style-type: none;
+}
+
+.submenu {
+    margin-right: 3em;
+}
+
+.slidesh {
+    height: 14em;
+    border: 3px solid black;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.bigTemplate {
+    height: 17em;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+
+.biggerTemplate {
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.btn-2 {
+    background-color: rgb(21, 142, 255);
+    margin: auto;
+    width: 6em;
+    height: 1.8em;
+    color: whitesmoke;
+}
+
+.placeholderText {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 15em;
+}
+
+.template {
+    border: 1px solid black;
+}
+
+.template2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.secondary {
+    background-color: white;
+    padding: 2em;
+}
+
+.footer {
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+}
+
+.abovefooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid whitesmoke;
+}
+
+.footerlist {
+    list-style-type: none;
+}
+
+.footerseclist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footerseclist li {
+    display: flex;
+    margin-right: 2em;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.4em;
+}
